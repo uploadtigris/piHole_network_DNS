@@ -63,7 +63,6 @@ wrote up as I went:
    hour showing up in the logs. I tracked it down, pinned the address properly,
    and wrote up the fix.
    → [LinkedIn write-up](https://www.linkedin.com/feed/update/urn:li:activity:7434388898182594561/)
-   · full breakdown in [sysadmin_handbook](https://github.com/uploadtigris/sysadmin_handbook) (networking section)
 
 2. **The "404" that turned out to be a corrupted install.**
    The admin console started returning a 404 and `apt upgrade` threw package
@@ -87,10 +86,6 @@ changed, and what I'd watch next time.
 | [`docs/01_setup-guide.md`](docs/01_setup-guide.md) | Full build: SD card, SSH, install, static IP, router DNS |
 | [`docs/02_reinstall-after-power-outage.md`](docs/02_reinstall-after-power-outage.md) | Rebuilding the Pi after a power outage |
 | [`images/`](images/) | Screenshots |
-
-Troubleshooting write-ups in [sysadmin_handbook](https://github.com/uploadtigris/sysadmin_handbook):
-[DNS failure after an IP address change](https://github.com/uploadtigris/sysadmin_handbook/blob/main/networking/Pi-hole%20DNS%20Failure%20After%20IP%20Address%20Change%20%28Restart%29.md) ·
-[404 error and corrupted installation recovery](https://github.com/uploadtigris/sysadmin_handbook/blob/main/linux/Pi-hole%20404%20Error%20%E2%80%94%20Corrupted%20Installation%20Recovery.md)
 
 ---
 
