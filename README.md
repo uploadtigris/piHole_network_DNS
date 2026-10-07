@@ -30,7 +30,7 @@ every phone, laptop, and TV on the network — no per-device client needed.
 | | |
 |---|---|
 | **Device** | Raspberry Pi 2 Model B |
-| **OS** | Raspberry Pi OS Lite (32-bit), headless |
+| **OS** | Debian Trixie (32-bit), headless |
 | **Connection** | Wired Ethernet to the router for stability |
 | **Addressing** | Static IP so every client can rely on it as DNS |
 
