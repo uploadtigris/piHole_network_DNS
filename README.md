@@ -36,7 +36,7 @@ every phone, laptop, and TV on the network — no per-device client needed.
 
 Full step-by-step build (imaging the SD card, enabling SSH, installing Pi-hole,
 setting the static IP, and pointing the router at it) is written up here:
-**[Pi-hole Setup Guide →](https://github.com/uploadtigris/my_home_lab/blob/main/docs/services/PiHole.md)**
+**[Pi-hole Setup Guide →](docs/01_setup-guide.md)**
 
 ---
 
@@ -76,6 +76,21 @@ wrote up as I went:
 
 Both are examples of how I document every fix: what broke, how I found it, what I
 changed, and what I'd watch next time.
+
+---
+
+## What's in this repo
+
+| Path | What it holds |
+|---|---|
+| `README.md` | What it does and how it fits the network |
+| [`docs/01_setup-guide.md`](docs/01_setup-guide.md) | Full build: SD card, SSH, install, static IP, router DNS |
+| [`docs/02_reinstall-after-power-outage.md`](docs/02_reinstall-after-power-outage.md) | Rebuilding the Pi after a power outage |
+| [`images/`](images/) | Screenshots |
+
+Troubleshooting write-ups in [sysadmin_handbook](https://github.com/uploadtigris/sysadmin_handbook):
+[DNS failure after an IP address change](https://github.com/uploadtigris/sysadmin_handbook/blob/main/networking/Pi-hole%20DNS%20Failure%20After%20IP%20Address%20Change%20%28Restart%29.md) ·
+[404 error and corrupted installation recovery](https://github.com/uploadtigris/sysadmin_handbook/blob/main/linux/Pi-hole%20404%20Error%20%E2%80%94%20Corrupted%20Installation%20Recovery.md)
 
 ---
 
