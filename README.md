@@ -42,11 +42,10 @@ setting the static IP, and pointing the router at it) is written up here:
 
 ## How it fits the network
 
-The router hands out Pi-hole's address as the DNS server for the whole LAN, so
-every device resolves through it by default. After the home network is segmented
-into VLANs, Pi-hole moves to the **Servers** VLAN and serves DNS to every other
-VLAN through a single documented firewall exception (*"any VLAN may reach Pi-hole
-on port 53"*). See
+Pi-hole now lives in the **Servers** VLAN (October 2026). pfSense hands out its
+address as the DNS server on the Mgmt, Trusted, IoT and Servers networks, and the
+firewall forces Trusted and IoT through it by blocking DNS to anywhere else. Guest
+uses its own pfSense gateway for DNS and never touches Pi-hole. See
 [network-segmentation-ids](https://github.com/uploadtigris/network-segmentation-ids).
 
 ---
